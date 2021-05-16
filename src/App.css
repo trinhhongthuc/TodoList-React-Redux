@@ -1,0 +1,64 @@
+.App{
+  width: 1200px;
+  margin: 0 auto;
+  
+ }
+ html {
+   background: #ddd;
+ }
+.heading{
+  text-align: center;
+  color: #1877F2;
+ }
+.button{ 
+  padding: 12px 20px;
+    margin-left: 12px;
+    border: none;
+    color: #1877F2;
+    font-size: 16px;
+    outline: none;
+}
+.button:hover {
+  background-color: #0e5fca;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.ul{
+
+  width:100%;
+  list-style: none;
+ }
+.li{ 
+  text-align:center;
+  background-color: #f87c7c;
+  margin: 2px 0;
+  font-size: 16px;
+  text-transform:capitalize;
+  padding: 8px 0;
+  color: #fff;
+
+}
+
+.li:hover {
+  background-color: #e34343;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.form-data{
+  text-align: center;
+    width:100%;
+}
+.input-text {
+  font-size: 16px;
+    width: 30%;
+    padding: 15px 7px 15px 12px;
+    outline:none;
+    border: none;
+    border-radius: 25px;
+    color: #1877F2;
+}
+
+.modify {
+  text-decoration: line-through;
+}
